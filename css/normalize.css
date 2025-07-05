@@ -1,0 +1,68 @@
+/* === NORMALIZE CSS MINIMAL === */
+/* 1. Evita problemas con box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Elimina márgenes y paddings automáticos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Mejora legibilidad y rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 4. Asegura que imágenes y elementos embebidos no se desborden */
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* 5. Estiliza listas básicas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 6. Asegura herencia de tipografía en formularios */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Elimina border innecesario en imágenes enlazadas */
+a img {
+  border: none;
+}
+
+/* 8. Evita subrayado en enlaces por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
