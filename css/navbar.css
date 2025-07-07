@@ -9,11 +9,7 @@
   gap: 3rem;
   padding: 10px 0 10px 0;
 }
-.contenedor-busqueda {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
+
 #buscador {
   width: 50%;
   height: 35px;

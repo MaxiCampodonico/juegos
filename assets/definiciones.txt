@@ -1,0 +1,5 @@
+| Parte                  | Significado                                                                                                 |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `<script>`             | Etiqueta HTML para incluir código JavaScript                                                                |
+| `src="js/buscador.js"` | Le dice que cargue el archivo `buscador.js` que está en la carpeta `js/`                                    |
+| `defer`                | Hace que el script se cargue en segundo plano **y se ejecute cuando el HTML ya está completamente cargado** |
